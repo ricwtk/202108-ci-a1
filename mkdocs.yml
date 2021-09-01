@@ -1,4 +1,5 @@
 site_name: 202108 CI Assignment 1
+site_url: https://ricwtk.github.io/202108-ci-a1
 docs_dir: src
 site_dir: docs
 markdown_extensions:
