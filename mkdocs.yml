@@ -1,0 +1,21 @@
+site_name: 202108 CI Assignment 1
+docs_dir: src
+site_dir: docs
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+theme:
+  name: material
+  favicon: img/favicon.ico
+  logo: img/favicon.ico
+  palette:
+    scheme: default
+    primary: white
+    accent: teal
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
